@@ -1,0 +1,58 @@
+.footer__2--content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer__2--content__cta {
+  width: 25%;
+}
+
+.footer__2--content__title {
+  font-size: 1.65rem;
+  margin: 1rem 0;
+}
+
+.footer__2--content__images {
+  display: flex;
+}
+.footer__2--content__images span {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.footer__2--content__images--1 {
+  display: flex;
+}
+.footer__2--content__images--1 span {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+.footer__2--content__images--1 span img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer__2--content__images--2 {
+  font-size: 2.6rem;
+}
+.footer__2--content__images--2 ion-icon {
+  margin-right: 1rem;
+}
+
+.footer__2--content__images--3 {
+  height: 10rem;
+  width: 10rem;
+}
+
+.footer__2--content__images--3 img {
+  height: 100%;
+  width: 100%;
+}

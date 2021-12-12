@@ -1,0 +1,101 @@
+.sectionOne {
+  width: 100%;
+  background-color: rgb(221, 32, 122);
+  overflow: hidden;
+}
+.sectionOne__content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.sectionOne__products--actual ul {
+  padding: 1rem 0;
+  list-style: none;
+  width: 20rem;
+  align-self: stretch;
+  background-color: white;
+  height: 100%;
+}
+.sectionOne__products--actual ul .sectionOne__products--actualname li {
+  font-size: 1.3rem;
+}
+.sectionOne__products--actualname,
+.sectionOne__products--actualname-1,
+.sectionOne__products--actualname-2 {
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectionOne__products--lists,
+.sectionOne__products--lists-1 {
+  position: absolute;
+  top: 0rem;
+  height: 45rem;
+  width: 20rem;
+  left: 20rem;
+  display: none;
+}
+
+.sectionOne__products--lists,
+.sectionOne__products--lists-1 {
+  box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.582);
+}
+
+.sectionOne__products--actualname:hover {
+  background-color: rgb(228, 228, 228);
+}
+.sectionOne__products--actualname-1:hover {
+  background-color: rgb(228, 228, 228);
+}
+.sectionOne__products--actualname-2:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.sectionOne__products--actualname-1:hover .categoryName-1 {
+  color: #1a9cb7;
+}
+
+.sectionOne__products--actualname-2:hover .categoryName-2 {
+  color: #1a9cb7;
+}
+
+.sectionOne__products--actualname:hover .sectionOne__products--lists {
+  display: inline-block;
+}
+.sectionOne__products--actualname-1:hover .sectionOne__products--lists-1 {
+  display: inline-block;
+}
+.sectionOne__products--actualname-2:hover .sectionOne__products--lists-2 {
+  display: inline-block;
+}
+
+.sectionOne__products--actualname #categoryRight {
+  display: none;
+}
+.sectionOne__products--actualname-1 #categoryRight-1 {
+  display: none;
+}
+.sectionOne__products--actualname-2 #categoryRight-2 {
+  display: none;
+}
+.sectionOne__products--actualname:hover #categoryRight {
+  color: #1a9cb7;
+  display: inline-block;
+}
+.sectionOne__products--actualname-1:hover #categoryRight-1 {
+  color: #1a9cb7;
+  display: inline-block;
+}
+
+.sectionOne__products--actualname-2:hover #categoryRight-2 {
+  color: #1a9cb7;
+  display: inline-block;
+}
+
+.sectionOne__images img {
+  height: 100%;
+  width: 100%;
+}
