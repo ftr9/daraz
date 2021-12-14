@@ -1,0 +1,39 @@
+.sectiontwo__content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+}
+.sectiontwo__content .section__two--cta {
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 10rem;
+  background-color: transparent;
+}
+.section__two--cta:hover {
+  box-shadow: 0.1px 1px 5px rgb(105, 105, 105);
+}
+.section__two--cta:hover ion-icon {
+  display: inline-block;
+}
+
+.section__two--cta {
+  border: none;
+  padding: 1rem 1rem;
+  width: 25%;
+}
+.section__two--cta span {
+  font-size: 1.65rem;
+}
+.section__two--cta img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+.section__two--cta ion-icon {
+  display: inline-block;
+  margin-left: auto;
+  font-size: 1.8rem;
+  display: none;
+}

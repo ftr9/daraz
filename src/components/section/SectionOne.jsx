@@ -1,5 +1,5 @@
 import './SectionOne.css'
-import { adone } from './ads/index'
+import SecOneSlideShow from './slideshow/SecOneSlideShow'
 
 const SectionOne = () => {
   return (
@@ -704,9 +704,7 @@ const SectionOne = () => {
             </div>
           </ul>
         </div>
-        <div className="sectionOne__images">
-          <img src={adone} alt="add"></img>
-        </div>
+        <SecOneSlideShow />
       </div>
     </div>
   )

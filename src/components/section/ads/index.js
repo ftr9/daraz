@@ -1,8 +1,8 @@
-export { default as adone } from './sectionadd1.jpg';
-export { default as adtwo } from './sectionadd2.jpg';
-export { default as adthree } from './sectionadd3.jpg';
-export { default as adfour } from './section4.jpeg';
-export { default as adfive } from './section5.jpeg';
-export { default as adsix } from './section6.jpeg';
-export { default as adseven } from './section7.jpeg';
-export { default as adeight } from './section8.jpeg';
+export { default as sectionadd1 } from './sectionadd1.jpeg';
+export { default as sectionadd2 } from './sectionadd2.jpeg';
+export { default as sectionadd3 } from './sectionadd3.jpeg';
+export { default as sectionadd4 } from './sectionadd4.jpeg';
+export { default as sectionadd5 } from './sectionadd5.jpeg';
+export { default as sectionadd6 } from './sectionadd6.jpeg';
+export { default as sectionadd7 } from './sectionadd7.jpeg';
+export { default as sectionadd8 } from './sectionadd8.jpeg';

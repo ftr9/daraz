@@ -1,0 +1,22 @@
+.sectionOne__images--dots {
+  position: absolute;
+  display: flex;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sectionOne__images {
+  position: relative;
+}
+
+.sectionOne__images--dot {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+  color: rgb(160, 160, 160);
+}
+
+.sectionOne__images--dot__active {
+  color: white;
+  transition: color 0.8s ease;
+}

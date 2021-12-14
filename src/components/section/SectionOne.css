@@ -37,6 +37,7 @@
   width: 20rem;
   left: 20rem;
   display: none;
+  z-index: 100000;
 }
 
 .sectionOne__products--lists,
@@ -95,7 +96,16 @@
   display: inline-block;
 }
 
+.sectionOne__images {
+  height: 40rem;
+  width: 100%;
+}
+.sectionOne__images:hover {
+  cursor: pointer;
+}
+
 .sectionOne__images img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
