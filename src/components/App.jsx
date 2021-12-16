@@ -6,10 +6,6 @@ import SectionOne from './section/SectionOne'
 import SectionTwo from './section/SectionTwo'
 
 const App = () => {
-  window.onscroll = e => {
-    console.log(document.documentElement.scrollTop)
-  }
-
   return (
     <div className="app__main">
       <Header />

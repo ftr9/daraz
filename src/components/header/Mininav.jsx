@@ -1,8 +1,8 @@
 import './Mininav.css'
 
-const Mininav = () => {
+const Mininav = ({ shrinkStatus }) => {
   return (
-    <div className="mininav">
+    <div className={`mininav ${shrinkStatus ? 'mininav__collapse' : ''}`}>
       <ul>
         <li>
           <a href="/">save more on app</a>
