@@ -4,6 +4,7 @@ import Footer from './footer/Footer.jsx'
 import Header from './header/Header.jsx'
 import SectionOne from './section/SectionOne'
 import SectionTwo from './section/SectionTwo'
+import SectionThree from './section/SectionThree'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <div className="app__section">
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
       </div>
       <Footer />
     </div>

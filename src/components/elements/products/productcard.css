@@ -1,0 +1,38 @@
+.productCard {
+  width: 19.25rem;
+  margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: white;
+}
+
+.productCard:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.795);
+}
+
+.productCard__image {
+  height: 20rem;
+}
+
+.productCard__image img {
+  height: 20rem;
+  width: 19.25rem;
+}
+
+.productCard__content {
+  padding: 1rem 0.5rem;
+}
+
+.productCard__rating ion-icon {
+  color: yellow;
+  margin-right: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.productCard__rating .totalraters {
+  font-size: 1.2rem;
+}
+
+.productCard__price {
+  color: #f57224;
+  font-size: 1.6rem;
+}

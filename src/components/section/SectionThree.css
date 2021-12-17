@@ -1,0 +1,8 @@
+.sectionthree--content {
+  width: 80%;
+  margin: 0 auto;
+}
+.sectionthree__products {
+  display: flex;
+  flex-wrap: wrap;
+}
