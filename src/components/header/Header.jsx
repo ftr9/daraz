@@ -3,26 +3,32 @@ import './Header.css'
 import Mainnav from './Mainnav.jsx'
 import Mininav from './Mininav.jsx'
 
+import { useLocation } from 'react-router-dom'
+
 const Header = () => {
   const [shrinkMininav, setShrinkMininav] = useState(false)
   const [openMainNavChild, setOpenMainNavChild] = useState(false)
 
-  ////scroll and navigation bar change logic
-  window.onscroll = e => {
-    const scrolledTop = document.documentElement.scrollTop
+  const location = useLocation()
 
-    ////with jsut two scroll shrink Mininav
-    if (scrolledTop >= 18) {
-      setShrinkMininav(true)
-    } else {
-      setShrinkMininav(false)
-    }
+  if (location.pathname === '/') {
+    ////scroll and navigation bar change logic
+    window.onscroll = e => {
+      const scrolledTop = document.documentElement.scrollTop
 
-    ////open cta buttons
-    if (scrolledTop >= 480) {
-      setOpenMainNavChild(true)
-    } else {
-      setOpenMainNavChild(false)
+      ////with jsut two scroll shrink Mininav
+      if (scrolledTop >= 18) {
+        setShrinkMininav(true)
+      } else {
+        setShrinkMininav(false)
+      }
+
+      ////open cta buttons
+      if (scrolledTop >= 480) {
+        setOpenMainNavChild(true)
+      } else {
+        setOpenMainNavChild(false)
+      }
     }
   }
 

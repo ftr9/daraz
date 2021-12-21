@@ -4,9 +4,24 @@
   background-color: white;
 }
 
+.productCard__link {
+  text-decoration: none;
+  color: black;
+}
+
 .productCard:hover {
   cursor: pointer;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.795);
+}
+
+.productCard__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
 }
 
 .productCard__image {

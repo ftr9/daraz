@@ -1,0 +1,72 @@
+.deliveryOption {
+  width: 35rem;
+  padding: 1rem 2rem;
+}
+
+.topicwithInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.topicwithInfo span {
+  display: inline-block;
+  font-size: 1.35rem;
+}
+.topicwithInfo ion-icon {
+  font-size: 2rem;
+}
+
+.deliveryOption__1,
+.deliveryOption__2,
+.deliveryOption__3 {
+  display: flex;
+  align-items: center;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.deliveryOption__1 ion-icon {
+  font-size: 3rem;
+}
+.deliveryOption__2 ion-icon {
+  font-size: 2rem;
+}
+.deliveryOption__3 ion-icon {
+  font-size: 2rem;
+}
+
+.deliveryOption__change {
+  margin-left: auto;
+}
+
+.deliveryOption__primary {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+.deliveryOption__secondary {
+  font-size: 1.29rem;
+}
+.deliveryOption__secondary,
+.deliveryOption__primary {
+  margin-left: 1rem;
+}
+
+.deliveryOption__price {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.deliveryOption__stat {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.2;
+}
+
+.deliveryOption__stat__content--primary {
+  font-size: 1.3rem;
+}
+.deliveryOption__stat__content--secondary {
+  font-size: 2rem;
+  margin-top: 1rem;
+}

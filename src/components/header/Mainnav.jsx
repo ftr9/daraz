@@ -1,5 +1,6 @@
 import './Mainnav.css'
 import addone from './add1.gif'
+import { useLocation } from 'react-router-dom'
 
 const NoborderNavs = ({ content, icon, isiconFirst = false }) => {
   if (!isiconFirst) {
@@ -23,6 +24,12 @@ const NoborderNavs = ({ content, icon, isiconFirst = false }) => {
 }
 
 const Mainnav = ({ openStatus, shrinkStatus }) => {
+  const location = useLocation()
+
+  if (location.pathname !== '/') {
+    openStatus = true
+  }
+
   return (
     <div className={`mainnav ${shrinkStatus ? 'mainnav__shadow' : ''}`}>
       <div className="mainnav__content">

@@ -1,0 +1,30 @@
+.IncDecbutton {
+  display: flex;
+}
+.IncDecbutton input {
+  width: 6rem;
+  padding: 1rem;
+  border: none;
+  margin: 0 0.5rem;
+}
+.IncDecbutton input:focus {
+  outline: none;
+}
+
+.IncDecbutton button {
+  padding: 0.5rem 0.8rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: 1px solid transparent;
+}
+
+.quantityIncDec {
+  display: flex;
+  align-items: center;
+}
+.quantityIncDec p {
+  margin-right: 2rem;
+}
